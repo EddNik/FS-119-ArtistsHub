@@ -1,1 +1,1 @@
-{"version":3,"file":"index.js","sources":["../src/main.js"],"sourcesContent":["import './js/soundwave-api';\nimport './js/menu';\nimport './js/modal';\nimport './js/artists';\nimport './js/feedback';\n\nconst test = fetchAlbumsByArtist('65ada227af9f6d155db46908');\n\nconsole.log(test);\n"],"names":["test"],"mappings":"ssBAMA,MAAMA,EAAO,oBAAoB,0BAA0B,EAE3D,QAAQ,IAAIA,CAAI"}
+{"version":3,"file":"index.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
