@@ -28,7 +28,7 @@ import{a as d,i as E,S as x}from"./assets/vendor-DtrmOK3T.js";(function(){const 
          data-id="${e._id}">
         Learn more
         <svg class="icon" width="24" height="24">
-          <use href="../img/artists-svg/artists.svg#icon-caret-right"></use>
+          <use href="/img/artists-svg/artists.svg#icon-caret-right"></use>
         </svg>
       </a>
     </li>
