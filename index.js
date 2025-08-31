@@ -19,8 +19,10 @@ import{a as d,i as E,S as x}from"./assets/vendor-DtrmOK3T.js";(function(){const 
       <ul class="artist-genres">
         ${e.genres.map(t=>`<li class="genre-item">${t}</li>`).join("")}
       </ul>
-      <h3 class="artist-name">${e.strArtist}</h3>
+      <div class="artist-container-info">
+      <h3 class="artists-name">${e.strArtist}</h3>
       <p class="artist-info">${e.strBiographyEN.substring(0,100)}...</p>
+      </div>
       <a href="./modal.html?id=${e._id}"
          class="link artists-link js-learn-more"
          data-id="${e._id}">
