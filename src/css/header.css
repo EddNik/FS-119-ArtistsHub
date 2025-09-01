@@ -92,7 +92,10 @@
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .navbar-logo-icon{
- height: 32px;
+  width: 83px;
+  height: 23px;
+  fill: white; 
+  
 }
 .navbar-container{
    flex-grow: 1;
@@ -101,12 +104,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  display: flex;
+  gap: 20px;
 }
 .navbar-header-container {
   display: flex;
   align-items: center;
   justify-content: space-between; 
-    padding: 20px 24px;
+    padding: 0 16px;
+    width: 100%;
 }
 
 .navbar-menu.is-open {
@@ -116,18 +122,23 @@
 }
 
 .navbar-close {
-  font-size: 32px;
+  width: 11.31px;
+  height: 11.31px;
   color: white;
   cursor: pointer;
   background: none;
   border: none;
+  display: inline-block;
+  fill: white; 
+  
 } 
 .navbar-link {
   color: white;
-  font-size: 24px;
+  font-size: 26px;
   margin: 16px 0;
   text-decoration: none;
    transition: color 0.2s ease;
+   font-weight: 500;
 }
 .navbar-link:hover {
   color: var(--accent-color, #ad88ff);
