@@ -7,7 +7,7 @@ import{a as u,i as b,S as I}from"./assets/vendor-DAK8oDSN.js";(function(){const 
       `,x=M.map(l=>{const C=l.movie?`
               <a href="${l.movie}" target="_blank" aria-label="YouTube link" class="youtube-link">
                 <svg class="icon-youtube" width="21" height="15" aria-hidden="true" focusable="false">
-                  <use href="/src/img/sprite.svg#icon-Youtube"></use>
+                  <use href="/img/sprite.svg#icon-Youtube"></use>
                 </svg>
               </a>`:"";return`
             <li>
