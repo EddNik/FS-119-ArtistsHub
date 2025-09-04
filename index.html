@@ -21,11 +21,12 @@
       href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&family=IBM+Plex+Sans:wght@100..700&family=Roboto:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preload" href="/FS-119-ArtistsHub/assets/desktop-1x-BeV4JReG.webp" as="image" />
     <title>ArtistsHub</title>
     <script type="module" crossorigin src="/FS-119-ArtistsHub/index.js"></script>
     <link rel="modulepreload" crossorigin href="/FS-119-ArtistsHub/assets/vendor-DAK8oDSN.js">
     <link rel="stylesheet" crossorigin href="/FS-119-ArtistsHub/assets/vendor-58GSwf4d.css">
-    <link rel="stylesheet" crossorigin href="/FS-119-ArtistsHub/assets/index-JzyRpONh.css">
+    <link rel="stylesheet" crossorigin href="/FS-119-ArtistsHub/assets/index-DpOuFrs7.css">
   </head>
   <body>
     <header class="header-section">
@@ -100,7 +101,8 @@
         about your favorite artists all in one place.
       </p>
       <div class="explore-artists-box">
-        <a class="hero-link-explore" href="#artists">Explore Artists
+        <a class="hero-link-explore" href="#artists"
+          >Explore Artists
           <svg class="nav-logo-icon" width="24" height="20">
             <use href="/FS-119-ArtistsHub/assets/sprite-Bb7NzKeo.svg#explore-artists"></use>
           </svg>
@@ -109,14 +111,27 @@
     </div>
     <div class="hero-image">
       <picture class="hero-img">
-        <source srcset="/FS-119-ArtistsHub/assets/desktop-1x-BeV4JReG.webp 1x, /FS-119-ArtistsHub/assets/desktop-2x-C-M2ep4a.webp 2x" media="(min-width: 1440px)" />
-        <source srcset="/FS-119-ArtistsHub/assets/tablet-1x-O394yLEj.webp 1x, /FS-119-ArtistsHub/assets/tablet-2x-DIz4Ojht.webp 2x" media="(min-width: 768px)" />
-        <source srcset="/FS-119-ArtistsHub/assets/mobile-1x-CmYUkGQx.webp 1x, /FS-119-ArtistsHub/assets/mobile-2x-BcsEASOH.webp 2x" media="(max-width: 767px)" />
+        <source
+          srcset="/FS-119-ArtistsHub/assets/desktop-1x-BeV4JReG.webp 1x, /FS-119-ArtistsHub/assets/desktop-2x-C-M2ep4a.webp 2x"
+          fetchpriority="high"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/FS-119-ArtistsHub/assets/tablet-1x-O394yLEj.webp 1x, /FS-119-ArtistsHub/assets/tablet-2x-DIz4Ojht.webp 2x"
+          fetchpriority="high"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/FS-119-ArtistsHub/assets/mobile-1x-CmYUkGQx.webp 1x, /FS-119-ArtistsHub/assets/mobile-2x-BcsEASOH.webp 2x"
+          fetchpriority="high"
+          media="(max-width: 767px)"
+        />
         <img src="/FS-119-ArtistsHub/assets/mobile-1x-CmYUkGQx.webp" alt="Hero img preview" />
       </picture>
     </div>
   </div>
 </section>
+
       <div id="artist-modal" class="modal hidden">
   <div class="modal-overlay"></div>
   <div class="container container-modal">
